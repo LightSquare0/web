@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "MaisonNeue-Medium";
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osz-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "MaisonNeue-Medium";
+  src: url("./assets/MaisonNeue-Medium.otf");
+}
+
+h1 {
+  font-size: 64px;
+  color: #848484;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 15vh;
+}
+
+.footerImage {
+  height: 75px;
+  filter: drop-shadow(1.5px 1.5px 1.5px#757575);
+  opacity: 95%;
+
+}
+
+.footerItem {
+    margin-left: 20px;
+    margin-right: 20px;
+}
